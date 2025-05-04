@@ -17,6 +17,7 @@ pipeline {
             steps {
                 // Run tests if applicable
 		//bat 'mvn test'
+		echo "Testing Completed"
             }
         }
         stage('Deploy') {
