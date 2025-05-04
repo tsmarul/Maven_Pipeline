@@ -1,12 +1,6 @@
 pipeline {
     agent any
     stages {
-        stage('Checkout') {
-            steps {
-                // Checkout your source code from version control
-                git 'https://github.com/tsmarul/Maven_Pipeline.git'
-            }
-        }
         stage('Build') {
             steps {
                 // Use Maven to build your project
