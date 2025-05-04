@@ -1,11 +1,18 @@
 pipeline {
     agent any
+<<<<<<< HEAD:Jenkinfile.txt
 tools
+=======
+	tools
+>>>>>>> ebb98e6256b6b8e102fe2745f2918878c5760d26:jenkinsfile
 	{
 		maven 'MAVEN_HOME'
 	}
     stages {
+<<<<<<< HEAD:Jenkinfile.txt
  
+=======
+>>>>>>> ebb98e6256b6b8e102fe2745f2918878c5760d26:jenkinsfile
         stage('Build') {
             steps {
                 // Use Maven to build your project
